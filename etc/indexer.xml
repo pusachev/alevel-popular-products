@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer
+            id="alevel_popular_products"
+            view_id="alevel_popular_products_view"
+            class="ALevel\PopularProducts\Model\Indexer\PopularProducts"
+    >
+        <title translate="true">Popular Products</title>
+        <description translate="true">Collect popular products</description>
+    </indexer>
+</config>
